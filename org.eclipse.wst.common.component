@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="CAPTRS">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="spring-beans-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-beans-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-websocket-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-websocket-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-instrument-tomcat-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-instrument-tomcat-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-instrument-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-instrument-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aspects-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-aspects-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-portlet-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-webmvc-portlet-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-core-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-web-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-tx-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-tx-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-framework-bom-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-framework-bom-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-tx-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-tx-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aspects-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-aspects-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jms-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-jms-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-instrument-tomcat-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-instrument-tomcat-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-webmvc-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-portlet-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-webmvc-portlet-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-test-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-test-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-expression-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-context-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-framework-bom-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-framework-bom-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-instrument-tomcat-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-instrument-tomcat-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jms-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-jms-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-tx-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-tx-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jdbc-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-jdbc-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-expression-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-context-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-websocket-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-websocket-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-beans-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-core-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-aop-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-beans-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-build-src-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-build-src-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-framework-bom-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-framework-bom-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-orm-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-orm-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-messaging-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-messaging-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-web-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-aop-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-test-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-test-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-messaging-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-messaging-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-portlet-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-webmvc-portlet-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-orm-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-orm-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-support-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-context-support-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jms-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-jms-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jdbc-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-jdbc-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-oxm-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-oxm-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-oxm-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-oxm-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-instrument-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-instrument-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-messaging-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-messaging-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-support-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-context-support-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-support-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-context-support-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-web-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-oxm-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-oxm-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ojdbc6 (1).jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/ojdbc6 (1).jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-orm-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-orm-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-websocket-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-websocket-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-test-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-test-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aspects-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-aspects-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-webmvc-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jdbc-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-jdbc-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-webmvc-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-instrument-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-instrument-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/commons-logging-1.2/commons-logging-1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-context-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-4.0.0.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-core-4.0.0.RELEASE-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-4.0.0.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-expression-4.0.0.RELEASE-javadoc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-4.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/spring-framework-4.0.0.RELEASE/libs/spring-aop-4.0.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-all-1.9.9.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Administrator/Desktop/citibridge/jackson-all-1.9.9.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="CAPTRS"/>
+        <property name="java-output-path" value="/CAPTRS/build/classes"/>
+    </wb-module>
+</project-modules>
