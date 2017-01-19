@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Recommendation Page</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+
+<style>
+#grad1 {
+    height: 1000px;
+    background: blue; /* For browsers that do not support gradients */ 
+    background: -webkit-linear-gradient(white, blue); /* For Safari 5.1 to 6.0 */ 
+    background: -o-linear-gradient(white, blue); /* For Opera 11.1 to 12.0 */ 
+    background: -moz-linear-gradient(white, blue); /* For Firefox 3.6 to 15 */ 
+    background: linear-gradient(white, blue); /* Standard syntax (must be last) */ 
+}
+</style>
+
+
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #365B98;
+}
+
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #D81C1C;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F2F2F2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+
+
+</head>
+
+<div id="grad1">
+
+<body style="font-family:verdana"  >
+<img src="/CAPTRS/htmlpages/Citi.png" class="img-rounded" alt="Citi logo" width="204" height="136" align="right">
+
+<ul>
+  <li><a href="index.html">Login</a></li>
+  <li><a href="http://www.citigroup.com/citi/news/news_list_view.html">News</a></li>
+</ul>
+<h3>Trade Recommendation for Market Cap</h3>
+
+
+<div ng-app="CAPTRSModule">
+    <div ng-controller="StockController">
+       <!--   {{question1 | json}} -->
+        <div>
+            <label data-ng-repeat="choice in question1.choices">
+                <input type="radio" name="response" value="true" ng-click="getTop5Stocks()"/>
+                    {{choice.text}}
+            </label>
+  		</div>
+	</div>
+</div>
+
+
+
+
+<!--<form name="myform" action="getTop5Best" method="GET">
+ <div><br>
+<input type="radio" ng-model="largeCap" value="LargeCap" ng-click="getTop5Stocks()">Large Cap(more than 5,000,000,000)<br>
+<br>
+<input type="radio" ng-model="midCap" value="MidCap" ng-click="getTop5Stocks()">Mid Cap(2,000,000,000 to 10,000,000,000)<br>
+<br>
+<input type="radio" ng-model="smallCap" value="SmallCap" ng-click="getTop5Stocks()">Small Cap(less than 2,000,000,000)<br>
+
+<br>
+<button ><b>GO To top 5</b></button>
+<br>
+</div> 
+</form>-->
+
+
+		
+</body>
+</div>
+</html>

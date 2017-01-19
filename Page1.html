@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Form</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+	<script src="app.js"></script>
+	
+	<style>
+#grad1 {
+    height: 1000px;
+    background: blue; /* For browsers that do not support gradients */ 
+    background: -webkit-linear-gradient(white, blue); /* For Safari 5.1 to 6.0 */ 
+    background: -o-linear-gradient(white, blue); /* For Opera 11.1 to 12.0 */ 
+    background: -moz-linear-gradient(white, blue); /* For Firefox 3.6 to 15 */ 
+    background: linear-gradient(white, blue); /* Standard syntax (must be last) */ 
+	}
+	</style>
+	
+	
+ </head>
+  <body align="center" ng-app="CAPTRSModule" ng-controller="LoginController" >
+	<div id="grad1">
+   <img src="C:\Users\DELL\Documents\workspace\CAPTRS\WebContent\WEB-INF\Citi.png" alt="Citi Icon" width="200" height="128" align="right">
+    <div class="container" ng-app="CAPTRSModule" ng-controller="LoginController">
+      <form class="login-form" ng-submit="postCtrl.postForm()">
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2 style="color:#010358" align="center"><b>Citi Bank Login</b></h2>
+        <h4 style="color:#D81C1C" align="center">Where your money is safe...</h4>
+        <p></p>
+        <br>
+        
+         <div class="image-container" align="center">
+    		<img src="C:\Users\DELL\Documents\workspace\CAPTRS\WebContent\WEB-INF\image.png" alt="Image" width="150" height="150">
+        </div>   
+        
+        
+        <p></p>
+        <label for="inputUsername" class="sr-only" >Username</label>
+       <!--  <input type="text" id="inputUsername" class="form-control" placeholder="Username"  required autofocus ng-model="postCtrl.inputData.username" > -->
+		<input type="text" id="inputUsername" class="form-control" placeholder="Username"  required autofocus ng-model="username"/>
+
+
+		<label for="inputPassword" class="sr-only">Password</label>
+        <!-- <input type="password" id="inputPassword" class="form-control" placeholder="Password" required ng-model="postCtrl.inputData.password" > -->
+		<input type="text" id="inputPassword" class="form-control" placeholder="Password" required ng-model="password"/>
+
+		<br>
+
+		<!-- <div class="alert alert-danger" role="alert" ng-show="errorMsg">{{errorMsg}}</div>-->
+        <button class="btn btn-lg btn-primary btn-block" type="submit" ng-click="validateUser()">Login</button>
+
+      </form>
+    </div> 
+</div>
+</body>
+</html>
